@@ -1,0 +1,191 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Aoboshi+One&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-size: 30px;
+    background-image: linear-gradient(
+        #000,
+        #5f54d4,
+        #b927b0,
+        #fa2a66,
+        #ff1751,
+        #000
+    );
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+}
+
+header nav {
+    display: flex;
+    margin: 0 auto;
+    font-family: "Aoboshi One", serif;
+    font-weight: lighter;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li a {
+    margin-top: 70px;
+    display: flex;
+    color: rgba(255, 255, 255, 0.795);
+    font-style: normal;
+}
+
+/*      MENU      */
+
+#menu {
+    display: flex;
+    position: absolute;
+    top: 3%;
+    left: 50%;
+    margin-bottom: 10%;
+    transform: translate(-50%, -50%);
+}
+
+a:hover {
+    color: #0026ff;
+    font-size: 35px;
+    font-weight: 600;
+    border: 0px solid #f1a5d8;
+    border-radius: 5%;
+    transition: 0.5s all;
+}
+
+a:not(:hover) {
+    transition: 1s all;
+}
+
+a:active {
+    color: #f1a5d8;
+    font-size: 40px;
+    transition: 0s;
+}
+
+li {
+    font-weight: large;
+    margin: 10px 10px;
+}
+
+div {
+    display: flex;
+    font-family: "Montserrat", sans-serif;
+    margin: 10%;
+    padding: 5%;
+    border-style: solid;
+    border-color: #000;
+    border-radius: 50px;
+    cursor: pointer;
+    font-weight: bold;
+    color: rgb(201, 223, 223);
+    background-color: #111111;
+}
+
+.ye {
+    display: flex;
+    border-radius: 50%;
+    width: 20%;
+}
+
+.yename {
+    margin-right: 3%;
+}
+
+.yetext {
+    margin-top: 10%;
+}
+
+.tydolla {
+    display: flex;
+    border-radius: 50%;
+    width: 25%;
+}
+
+.tydollaname {
+    display: grid;
+}
+
+.tydollatext {
+    position: absolute;
+    margin-left: 18%;
+    margin-top: 10%;
+}
+
+.mike {
+    display: flex;
+    border-radius: 50%;
+    width: 25%;
+}
+
+.mikename {
+    display: grid;
+}
+
+.miketext {
+    position: absolute;
+    margin-left: 18%;
+    margin-top: 10%;
+}
+
+.travis {
+    display: flex;
+    border-radius: 50%;
+    width: 25%;
+}
+
+.travisname {
+    display: grid;
+}
+
+.travistext {
+    position: absolute;
+    margin-left: 18%;
+    margin-top: 10%;
+}
+
+.tyler {
+    display: flex;
+    border-radius: 500%;
+    width: 25%;
+}
+
+.tylername {
+    display: grid;
+}
+
+.tylertext {
+    position: absolute;
+    margin-left: 18%;
+    margin-top: 10%;
+}
+
+.kendrick {
+    display: flex;
+    border-radius: 50%;
+    width: 25%;
+}
+
+.kendrickname {
+    display: grid;
+}
+
+.kendricktext {
+    position: absolute;
+    margin-left: 18%;
+    margin-top: 10%;
+}

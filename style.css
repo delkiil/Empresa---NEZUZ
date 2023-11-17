@@ -1,0 +1,171 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Aoboshi+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-size: 30px;
+    background-image: linear-gradient(#000, #5F54D4, #B927B0, #FA2A66, #FF1751, #000);
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+}
+
+header nav {
+    display: flex;
+    margin: 0 auto;
+    font-family: 'Aoboshi One', serif;
+    font-weight: lighter;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li a {
+    margin-top: 50px;
+    display: block;
+    color: rgba(255, 255, 255, 0.795);
+    padding: 5px;
+    text-overflow: ellipsis;
+    font-style: normal;
+}
+
+/*     TITULO     */
+
+.nezuz{
+    color: rgb(255, 255, 255);
+    font-size: 60px;
+    text-align: center;
+    padding: 0px;
+    margin: 0%;
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+}
+
+/*      MENU      */
+
+#menu-esquerda {
+    display: contents;
+    margin: 10%;
+}
+
+#menu-direita {
+    display: flex;
+    margin-left: 125px;
+}
+
+#menu-direita li:nth-child(1) a {
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+#menu-direita li:nth-child(2) a {
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+a:hover {
+    color: #3800b9;
+    font-size: 35px;
+    font-weight: 600;
+    border: 0px solid #f1a5d8;
+    border-radius: 5%;
+  
+    transition: 0.5s all;
+}
+
+a:not(:hover) {
+    transition: 1s all;
+}
+
+a:active {
+    color: #f1a5d8;
+    font-size: 40px;
+    transition: 0s;
+}
+
+li {
+    font-weight: large;
+    margin: 10px 10px;
+}
+
+/* IMAGEM */
+
+img {
+    display: flex;
+    border-radius: 200%;
+    justify-content: center;
+    margin: 20px 120px 20px 20px;
+    padding: 5% 0% 5% 0%;
+    transition: 1s all;
+    animation: floating 5s ease-in-out infinite;
+}
+
+@keyframes floating {
+    0% {
+        transform: translateY(0px);
+        rotate: (0);
+    }
+
+    50% {
+        transform: translateY(-60px) rotate(0deg);
+    }
+
+    100% {
+        transform: translateY(0px) rotate(0deg);
+    }
+}
+
+img:hover {
+    scale: 1.1;
+}
+
+/* SOBRE NOS */
+
+.empresa{
+    font-family: "Montserrat", sans-serif;
+    border: 0px;
+    border-style: solid;
+    border-color: #000;
+    border-radius: 50px;
+    cursor: pointer;
+    font-weight: 900;
+    margin: 100px;
+    padding: 40px;
+    transition: 1s all;
+    color: rgb(201, 223, 223);
+    background-color: #111111;
+}
+
+
+.sobreempresa {
+    text-align: center;
+    margin-bottom: 6%;
+}
+
+iframe {
+    display: flex;
+    flex-flow: center;
+    margin: 2em auto;
+    margin-top: 50vh;
+    transition: 2s all;
+}
+
+iframe:hover {
+    box-shadow: 10px 10px 10px 10px rgba(0, 255, 255, 0.5),
+        10px -10px 10px 10px rgba(0, 255, 255, 0.5),
+        -10px -10px 10px 10px rgba(0, 255, 255, 0.5),
+        -10px 10px 10px 10px rgba(0, 255, 255, 0.5);
+}
